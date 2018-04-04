@@ -1,6 +1,6 @@
 # example
 
-More than the modifications presentedn in the pull request I made other modifications just for my specific needs, that are not generalisable. I wanted to do a Independent Metropolis, so that my proposal distribution is uniform and do not dependent on the set of parameters. I did that by:
+More than the modifications presented in the pull request I made other modifications just for my specific needs, that are not generalisable. I wanted to do a Independent Metropolis, so that my proposal distribution is uniform and do not dependent on the set of parameters. I did that by:
 
 ## 1. Create my own proposal distribution that I added in the metropolis.py file:
 ```python
