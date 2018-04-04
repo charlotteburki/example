@@ -16,13 +16,16 @@ class UniformProposal2(Proposal):
        
 ## 2. Use that distribution as default: 
 So I modified line 115 to:
-
+```python
  self.proposal_dist = UniformProposal2(S)
- 
+  ```
 ## 3. Not taking into account the last set of parameters
 at line 158: 
 I modified that:
+```python
 q = (q0 + delta)
-
+ ```
 to be just that:
+```python
 q=delta
+ ```
